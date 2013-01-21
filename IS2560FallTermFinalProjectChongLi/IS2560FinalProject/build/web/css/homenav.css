@@ -1,0 +1,152 @@
+
+#session{
+    z-index: 9998;
+    margin-bottom: -200px;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+#session ul li{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+#session ul li h1{
+    position: relative;
+    top: 10px;
+    color: #999999;
+}
+
+#session ul li h1 span{
+    color: #2f96b4;
+}
+
+#logo {
+    width: 160px;
+}
+
+#session hr{
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+#session #person{
+    text-align: center;
+}
+
+#session #sep{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#session #person button{
+    color: #999999;
+}
+
+#homeNav{
+    margin-top: -150px;
+    margin-right: 20px;
+    padding: 0;
+    z-index: 9999;
+    border-bottom: 1px solid rgba(47, 150, 180, 0.8);
+    font-family: helveticaneue;
+    font-size: 20px;
+}
+
+#homeNav ul{
+    padding: 0;
+    margin-left: 0;
+    margin-bottom: 25px;
+}
+
+#homeNav ul li{
+    display: inline;
+    padding: 40px;
+    border-bottom: 8px solid transparent;
+    border-top: 1px solid transparent;
+}
+
+#homeNav ul li a{
+    position: relative;
+    bottom: -5px;
+    height: 60px;
+    line-height: 60px;
+    opacity: 0.7;
+}
+
+#homeNav ul li a:hover{
+    text-decoration: none;
+    opacity: 1;
+}
+
+#homeNav ul .active{
+    background: url(../img/caretup.png) no-repeat scroll 50% bottom;
+    border-bottom-color: #0099ff !important;
+    border-top-color: #0099ff !important;
+}
+
+#homeNav ul .active a{
+    color: #2f96b4;
+    opacity: 1 !important;
+    font-weight: bold;
+}
+
+footer{
+    color: #999999;
+    font-size: 13px;
+    padding: 60px 0 15px 0;
+    border-top: 1px #0099ff solid;
+    border-bottom: 1px #0099ff solid;
+    margin-top: 30px;
+}
+
+footer th{
+    text-align: left;
+    padding: 5px 15px;
+    color: #999999;
+    text-transform: uppercase;
+}
+
+footer table{
+    width: 100%;
+    table-layout: fixed;
+    vertical-align: text-top;
+}
+
+footer table td{
+    padding: 5px 15px;
+}
+
+footer #developer table td{
+    padding: 1px;
+}
+
+footer td ul a span {
+    position: relative;
+    top: 2px;
+}
+
+footer #social td{
+    padding: 5px;
+}
+
+footer #social img{
+    width: 32px;
+    box-shadow: 3px 3px 2px #999999;
+    border-radius: 6px;
+}
+
+footer #social img:hover {
+    box-shadow: 0 1px 1px #999999;
+}
+
+footer hr{
+    margin: 0;
+}
+
+.end{
+    text-align: center;
+    color: #2f96b4;
+    padding: 10px 0;
+}
+

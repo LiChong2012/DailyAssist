@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sign Up | DailyAssist</title>
+        <link href="css/bootstrap.css" type="text/css" rel="stylesheet"/>
+        <link href="css/signup.css" type="text/css" rel="stylesheet"/>
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/signup.js"></script>
+    </head>
+    <body>
+        <script>
+            $(document).ready(function () {
+                $("#signupForm").hide();
+                $("#signupForm").fadeIn(2000);
+            })
+            var backgroundOffset = 0;
+            var bgObject = eval('document.body');
+            function scrollBG(maxSize) {
+                if (backgroundOffset <= maxSize) {
+                    backgroundOffset++;
+                    bgObject.style.backgroundPosition = -(backgroundOffset) + "px" + " -300px";
+                }
+                else {
+                }
+            }
+            var ScrollTimer = window.setInterval("scrollBG(500)", 100);
+        </script>
+
+        <section class="row" id="signup">
+            <section id="formSection">
+                <form class="form-horizontal" id="signupForm" onsubmit="return CheckAll()" action="SignupServlet" method="POST">
+                    <span id="siteTitle">DailyAssist</span><br/><br/>
+                    <span id="signupText">Welcome to use DailyAssist, enjoy your easy life!</span><br/><br/>
+                    <a id="signupNote" href="signin.html"><i class="icon-check icon-white"></i>Sign in your account</a>
+                    <br/>
+                    <section id="signupBlock" class="input-prepend input-append">
+                        <span class="add-on inputIcon"><i class="icon-envelope"></i></span>
+                        <input type="text" id="email" name="username" class="input input-xlarge" placeholder="email....." oninput="emailCheck()"/>
+                        <span class="add-on validation" id="emailError"><img src="img/wrong.png"  width="13px"/><span class="text-error"> invalid email format</span></span>
+                        <span class="add-on validation" id="emailSuccess"><img src="img/check.png"  width="13px"/><span class="text-success"></span></span>
+                        <br/>
+                        <span class="add-on inputIcon"><i class="icon-lock"></i></span>
+                        <input type="password" id="password" name="password" class="input input-xlarge" placeholder="password....." oninput="pwdCheck()"/>
+                        <span class="add-on validation" id="pwdLength"><img src="img/wrong.png"  width="13px"/><span class="text-error"> password must be longer than 6 bit</span></span>
+                        <span class="add-on validation" id="pwdFormet"><img src="img/wrong.png"  width="13px"/><span class="text-error"> password must begin with number or letter</span></span>
+                        <span class="add-on validation" id="pwdSuccess"><img src="img/check.png"  width="13px"/><span class="text-success"></span></span>
+                        <br/>
+                        <span class="add-on inputIcon"><i class="icon-ok"></i></span>
+                        <input type="password" id="checkPassword" class="input input-xlarge"
+                               placeholder="re-enter password....." oninput="pwdMatch()"/>
+                        <span class="add-on validation" id="checkPwdError"><img src="img/wrong.png"  width="13px"/><span class="text-error"> your password do not match</span></span>
+                        <span class="add-on validation" id="checkPwdSuccess"><img src="img/check.png"  width="13px"/><span class="text-success"></span></span>
+                    </section>
+                    <label class="checkbox">
+                        <input type="checkbox" id="checkTerm" onclick="checkUseTerm(this)"/>I agree <a href=""><i>Terms of Use</i></a>
+                    </label>
+                    <input type="submit" value="Sign Up!" id="signupBtn" class="btn btn-primary"/>
+                </form>
+                <span id="checkUseTerm" class="validation"><img src="img/wrong.png"  width="13px"/><span class="text-error"> Sorry, but you need to agree on our term of use. </span></span>
+                <span id="checkFormTip" class="validation"><img src="img/wrong.png"  width="13px"/><span class="text-error"> Sorry, please check your username and password. </span></span>
+                <span class="validation" id="duplicateMsg"><img src="img/wrong.png"  width="13px"/><span class="text-error"> <strong>Sorry! </strong>Someone already has that username. Try another?</span></span>
+            </section>
+            <footer class="">
+                <hr/>
+                <span id="bottomBar">DailyAssist | @2012 All Rights Reserved</span>
+            </footer>
+
+        </section>
+    </body>
+</html>

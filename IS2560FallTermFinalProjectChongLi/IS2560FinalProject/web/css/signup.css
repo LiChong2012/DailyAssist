@@ -1,0 +1,110 @@
+
+body{
+    background: url(../img/sunshineOcean.jpg) fixed 0 -300px no-repeat;
+    font-family: cursive, serif, normal;
+}
+
+#formSection{
+    position: absolute;
+    min-width: 500px;
+    top: 150px;
+    left: 37%;
+    height: 460px;
+}
+
+@-webkit-keyframes whitePulse {
+    from { text-shadow: 0 0 9px #ababab; opacity: 0.5;}
+    50% { text-shadow: 0 0 21px #ffffff; opacity: 0.9;}
+    to { text-shadow: 0 0 9px #ababab; opacity: 0.5; }
+}
+#siteTitle {
+    font-size: 55px;
+    font-weight: bold;
+    color: #ffffff;
+    font-family: Calibri, arial;
+    -webkit-animation-name: whitePulse;
+    -webkit-animation-duration: 4s;
+    -webkit-animation-iteration-count: infinite;
+}
+
+#signupText{
+    font-size: 16px;
+    text-shadow: 1px 1px 1px #787878;
+    color: #ffffff;
+    opacity: 0.7;
+}
+
+#signupNote{
+    margin-left: 185px;
+    font-size: 12px;
+    text-shadow: 0 0 1px #787878;
+    color: #dddddd;
+    opacity: 0.3;
+}
+
+#signupNote:hover{
+    opacity: 1;
+    color: #ffffff;
+}
+
+#signupBlock{
+    color: #999999;
+}
+
+.inputIcon, input{
+    opacity: 0.5;
+}
+
+#signupBlock .input-xlarge{
+    margin: 0 0 2px 0;
+}
+
+.checkbox{
+    margin: 10px 0;
+    color: #ffffff;
+    opacity: 0.4;
+}
+
+@-webkit-keyframes bluePulse {
+    from { background-color: #0066fa; -webkit-box-shadow: 0 0 9px #007d9a; }
+    50% { background-color: #006DCC; -webkit-box-shadow: 0 0 18px #2daebf; }
+    to { background-color: #0066fa; -webkit-box-shadow: 0 0 9px #007d9a; }
+}
+
+#signupBtn {
+    position: relative;
+    top: -25px;
+    margin-left: 227px;
+    opacity: 0.8;
+    -webkit-animation-name: bluePulse;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-iteration-count: infinite;
+}
+
+.validation {
+    background: rgba(0,0,0,0) none no-repeat scroll !important;
+    border: 0 !important;
+    opacity: 0.8;
+    text-shadow: none !important;
+}
+
+.validation img{
+    margin-top: -3px;
+}
+
+footer{
+    position: relative;
+    top: 560px;
+    left: 20%;
+    width: 60%;
+    min-width: 500px;
+    color: #ffffff;
+    opacity: 0.4;
+    font-size: 13px;
+    text-align: center;
+}
+
+hr{
+    text-shadow: 0 0 1px #ffffff;
+    opacity: 0.2;
+}

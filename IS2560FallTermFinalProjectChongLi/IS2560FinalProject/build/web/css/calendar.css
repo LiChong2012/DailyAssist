@@ -1,0 +1,70 @@
+
+/* Body and structure
+-------------------------------------------------- */
+body {
+    position: relative;
+}
+
+.year{
+    font-size:99px;
+    margin-top:50px;
+    color: #2faac8;
+    text-shadow: 8px -3px 18px #ababab;
+}
+
+.month{
+    font-size:48px;
+    color:#787878;
+    text-shadow: 6px -1px 8px #ababab;
+    opacity: 0.8;
+    font-weight: bolder;
+    margin-top: 14px;
+    margin-left: 160px;
+}
+
+.time{
+    float:right;
+    font-size:30px;
+    text-align:right;
+    opacity: 0.8;
+    color: #787878;
+}
+
+.calendar th{
+    font-size: 18px;
+    font-weight:bold;
+    color: #2faaca;
+}
+
+.calendar td{
+    height:60px;
+    font-size:24px;
+    width: 90px;
+    color:#787878;
+}
+
+.calendar td.weekend{
+    color:#2faac8;
+    font-weight: bold;
+}
+
+.calendar td.today{
+    color:#ff4444;
+    background-color: #afddc8 !important;
+    font-weight: bolder;
+}
+
+.calendar td.holiday{
+    color:#ff4444;
+    background-color: #ffcccc !important;
+}
+
+.content{
+    color:#2faac8;
+    font-size:11px;
+    line-height:11px;
+}
+
+.controlBtn {
+    float: right;
+}

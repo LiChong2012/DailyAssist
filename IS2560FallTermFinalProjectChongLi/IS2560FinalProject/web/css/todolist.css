@@ -1,0 +1,171 @@
+body{
+    min-width: 990px;
+    font-family: cursive, serif, normal;
+}
+
+#todo{
+    margin-top: 40px;
+}
+
+#todoList{
+    margin: 10px 0;
+    padding: 15px 12px;
+    border: 1px #e3e3e3 solid;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+}
+
+#todoList h3{
+    font-family: helveticaneue;
+    color: #2f96b4;
+}
+
+#todoList h3 small{
+    font-family: cursive, serif, normal;
+}
+
+#todoTitle{
+    font-family: helveticaneue;
+}
+
+.taskAmount{
+    margin-left: 10px;
+    font-size: 22px;
+    color: #2f96b4;
+}
+
+.checkTd{
+    width: 15px;
+}
+
+.timeTd{
+    width: 70px;
+}
+
+.todoContent{
+    font-size: 13px;
+    color: #454545;
+}
+
+.done-true{
+    text-decoration: line-through;
+    color: #bdbdbd;
+}
+
+#rightCol{
+    margin: 10px 0 10px 40px;
+}
+
+#addControl{
+    font-family: helveticaneue;
+    padding: 35px 15px 0 15px;
+    border: 1px #e3e3e3 solid;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+}
+
+#addControl h4{
+    color: #2f96b4;
+    margin-left: 15px;
+}
+
+#addControl form hr{
+    width: 220px;
+    margin-bottom: 18px;
+}
+
+#newTodo, #datePick{
+    width: 180px;
+}
+
+#addbtn{
+    float: right;
+    width: 100px;
+    height: 100px;
+}
+
+#todoCalendar{
+    margin: 15px 0 0 0;
+    padding: 25px 5px 0 5px;
+    border: 1px #e3e3e3 solid;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+}
+
+.year{
+    font-size:20px;
+    color: #2faac8;
+}
+
+.month{
+    font-size:16px;
+    font-family: helveticaneue;
+    color:#787878;
+    font-weight: bolder;
+}
+
+.time{
+    float:right;
+    font-size:14px;
+    color: #787878;
+}
+
+.calendar{
+    table-layout: fixed;
+}
+
+.calendar th{
+    font-size: 13px;
+    font-family: helveticaneue;
+    color: #2faaca;
+}
+
+.calendar td{
+    height:30px;
+    font-size:12px;
+    color:#787878;
+}
+
+.calendar td.weekend{
+    color:#2faac8;
+}
+
+.calendar td.today{
+    color:#ff4444;
+    background-color: #afddc8 !important;
+    font-weight: bolder;
+}
+
+.calendar td.holiday{
+    color:#ff4444;
+    background-color: #ffcccc !important;
+}
+
+.content{
+    color:#2faac8;
+    font-size:10px;
+}
+
+.controlBtn {
+    text-align: center;
+    margin-top: -16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

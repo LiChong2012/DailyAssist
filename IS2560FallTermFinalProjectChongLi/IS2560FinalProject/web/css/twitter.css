@@ -1,0 +1,141 @@
+body{
+    min-width: 990px;
+    font-family: helveticaneue;
+}
+
+#twitterMain{
+    margin-top: 60px;
+}
+
+#twitter #login{
+    border: 1px solid #dddddd;
+    padding: 30px 10px;
+    text-align: center;
+}
+
+#twitter #login:hover{
+    border-color: #0099cc;
+}
+
+#twitter #login li{
+    display: inline-block;
+}
+
+#twitter #login #firstLi{
+    width: 450px;
+    text-align: left;
+}
+
+#twitter #login #firstLi section{
+    padding-left: 40px;
+}
+
+#twitter #login #firstLi #secondline{
+    padding-left: 100px;
+}
+
+#twitter #login #firstLi #thirdline{
+    padding-left: 150px;
+}
+
+#twitter #login #firstLi form{
+    text-align: center;
+}
+
+#twitter #login #firstLi form input{
+    padding: 10px 30px;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+#twitter #login #secondLi{
+    width: 400px;
+}
+
+/* ------------------------ */
+
+#twitterTab{
+    font-size: 20px;
+}
+
+#twitterTab .active{
+    font-weight: bold;
+}
+
+#twitterTab{
+    padding-left: 50px;
+}
+
+#twitterHome{
+    padding-left: 80px;
+    padding-right: 80px;
+    text-align: center;
+}
+
+#twitterHome #welcome{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#twitterHome .thumbnail{
+    width: 500px;
+    height: 240px;
+    margin-left: 150px;
+}
+
+#twitterHome .thumbnail:hover{
+    border-color: #0099cc;
+}
+
+#twitterHome .media{
+    text-align: center;
+}
+
+#twitterHome .media ul li{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#twitterHome .media img{
+    width: 80px;
+    margin-right: 30px;
+}
+
+#twitterHome .media table td{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+
+/* ----------------- */
+
+#searchTweet{
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+#searchTweet table th, #searchTweet table td{
+    text-align: center;
+    vertical-align: middle;
+}
+
+/* ---------------- */
+
+#postTweet{
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+#postTweet textarea{
+    resize: none;
+    width: 400px;
+    height: 50px;
+    margin-right: 40px;
+}
+
+#postTweet table td, #postTweet table th{
+    text-align: center;
+    vertical-align: middle;
+}

@@ -1,0 +1,25 @@
+
+
+body{
+    min-width: 990px;
+    font-family: helveticaneue;
+}
+
+#media{
+    padding: 40px 40px 20px 40px;
+}
+
+#media img{
+    padding-bottom: 20px;
+    padding-right: 30px;
+    padding-top: 10px;
+}
+
+#logoutBlock{
+    margin: 40px;
+    padding: 20px 80px;
+}
+
+#logoutBtn{
+    text-align: right;
+}
